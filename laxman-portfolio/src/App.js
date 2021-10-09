@@ -1,11 +1,22 @@
 
 import React from "react";
 import './App.css';
+import Navbar from "./Navbar/Navbar";
+import Home from "./Home/Home";
+import About from "./About/About";
+import Skill from "./Skill/Skill";
+
+import Contact from "./Contact/Contact";
 
 function App() {
   return (
     <div >
-       <h1>my name   njkhkj is laxman</h1>
+     <Navbar />
+     <Home />
+     <About />
+     <Skill />
+   
+     <Contact />
     </div>
   );
 }

@@ -1,0 +1,41 @@
+.home{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 30%, rgba(33,18,91,1) 50%, rgba(7,7,114,1) 62%, rgba(48,140,159,1) 78%, rgba(46,134,153,1) 84%);
+    display: flex;
+    height:63.0rem;
+    padding-top: 8.0rem;
+    position: relative;
+}
+
+html{
+    font-size: 62.3%;
+}
+.home .container h1{
+    margin:0;
+}
+
+.home .container{
+    position: absolute;
+    top:15%;
+    display: flex;
+    flex-direction: column;
+    left:2%;
+    color: white;
+}
+.home .container .hello{
+    font-size: 6.3rem;
+}
+.home .code{
+    position: absolute;
+    height:15%;
+    bottom: 0;
+    left:2%;
+}
+
+.home .binaryimg {
+    position: absolute;
+    height:75%;
+    right:10%;
+    top:15%;
+
+}

@@ -1,0 +1,51 @@
+.myskill{
+    background-color: #141414;
+    padding-bottom: 5%;
+}
+
+.skillContainer .listskil ul {
+    color: white;
+    padding:0;
+    list-style-type: none;
+}
+
+.myskill .skillContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:1rem;
+}
+
+.myskill .skillContainer .listskil{
+    flex-basis:31%;
+    background-color: black;
+    box-shadow: 0 0 2px 4px white;
+    border-radius: 9px;
+    padding:10px;
+    margin-right: 1rem;
+    margin-bottom: 5px;
+    margin-top: .5rem;
+   
+}
+
+.myskill .skillContainer .listskil ul li{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+.myskill img{
+    padding-left: 20%;
+}
+.myskill p{
+    padding-left: 25%;
+    width:75%;
+}
+
+.project{
+    padding-left: 25%;
+    width:75%;
+}
+/* .project p{
+    padding-left: 30%;
+} */

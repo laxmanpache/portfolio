@@ -1,0 +1,34 @@
+
+html{
+    font-size: 62.3%;
+}
+.navbar{
+    background-color: #181818;
+    width:100%;
+    opacity: 0.9;
+    z-index: 9999;
+    height:8rem;
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.navbar nav ul{
+ list-style: none;
+ margin:0;
+ padding: 0;
+}
+
+.navbar nav ul {
+    display: inline-block;
+    margin: 2rem;
+   
+}
+.navbar nav  ul li a{
+    text-decoration: none;
+    color:white;
+}
+.navbar a:hover{
+    border-bottom: .2rem solid purple;
+}

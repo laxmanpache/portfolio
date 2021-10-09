@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+
 }
 
+html{
+  
+  font-size: 62.3%;
+  scroll-behavior: smooth;
+}
+
+
+h1{
+  font-weight:900;
+  font-size: 4.5rem;
+  color: white; 
+
+}
+
+h2{
+  font-weight:700;
+  font-size: 2.5rem;
+  color: white;
+
+}
+p{
+  font-weight:500;
+  font-size: 2.1rem;
+  color: white;
+
+}
+a{
+  font-weight:900;
+  font-size: 1.6rem;
+
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@media(max-width:360px)
+{
+   body{
+    font-size:30%;
+   }
+  
 }

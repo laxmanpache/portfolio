@@ -1,0 +1,20 @@
+.contactus{
+    background-color: black;
+    height:300px;
+    display: flex;
+    align-items: center;
+}
+
+.contactus .contacicon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contactus .contacicon svg path{
+    cursor: pointer;
+}
+
+.contactus .contacicon svg  {
+     height:100px;
+}

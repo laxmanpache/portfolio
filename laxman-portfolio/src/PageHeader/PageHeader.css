@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.container hr{
+    position: absolute;
+    left:0;
+    width:124px;
+    
+    border: 1px solid purple;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+}
+.container .title{
+    color:white;
+}
