@@ -1,6 +1,12 @@
 .myskill{
     background-color: #141414;
     padding-bottom: 5%;
+    /* width:100%; */
+}
+
+
+html{
+    font-size: 62.3%;
 }
 
 .skillContainer .listskil ul {
@@ -13,18 +19,20 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: 10%;
-    margin-right: 10%;
+    /* margin-right: 10%; */
+    width:100%;
     margin-top:1rem;
 }
 
 .myskill .skillContainer .listskil{
     flex-basis:31%;
     background-color: black;
-    box-shadow: 0 0 2px 4px white;
-    border-radius: 9px;
-    padding:10px;
-    margin-right: 1rem;
-    margin-bottom: 5px;
+    width: 100%;
+    box-shadow: 0 0 .2rem .4rem white;
+    border-radius: .9rem;
+    padding:1.0rem;
+    /* margin-right: .1rem; */
+    margin-bottom: .5rem;
     margin-top: .5rem;
    
 }
@@ -49,3 +57,11 @@
 /* .project p{
     padding-left: 30%;
 } */
+
+
+@media (max-width: 768px) {
+    html {
+    font-size: 20%;
+
+    }
+    }

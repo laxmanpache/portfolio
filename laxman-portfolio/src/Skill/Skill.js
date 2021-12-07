@@ -28,12 +28,12 @@ const OtherSkill=
 
 const Skill = () => {
     return (
-        <div className="myskill col-md-auto" id="skill">
+        <div className="myskill  row" id="skill">
             <PageHeader title="what about the Skills and projects ?" />
             <p>i I have problem solving ability,also i got 3 star on hackerrank .
                I attended National level hardware workshop ,also i am Runner in the event Blind C/C++ which conducted on Oct 2019.</p>
             <img src="images/codeThinking.svg" alt="code thinking"  width="60%" paddingLeft="40%"/>
-            <div className="skillContainer">
+            <div className="skillContainer col-10">
                 {
                     totalskill.map((skill)=>{
                         return(
@@ -47,7 +47,7 @@ const Skill = () => {
                 }
             </div>
 
-            <div className="project">
+            <div className="project col-12">
 
                <h1> Projects</h1>
                <h2> 1 . Resturant view item</h2>

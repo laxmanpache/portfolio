@@ -6,8 +6,8 @@ const About = () => {
     return (
         <div className="AboutMe" id="about">
         <PageHeader title="About Me"/>
-        <div className="container">
-            <div className="text1">
+        <div className="container col-sm-12" >
+            <div className="text1 col-sm-12 col-lg-6 col-md-6">
                 <h2>Hello I'm Laxman Pache</h2>
                 <p>  I completed my BE in Computer Engineering form Savitribai Phule University Pune with 8.12 CGPA.
 

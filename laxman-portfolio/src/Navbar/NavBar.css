@@ -3,14 +3,14 @@ html{
     font-size: 62.3%;
 }
 .navbar{
-    background-color: #181818;
+    background-color: #05010518;
     width:100%;
     opacity: 0.9;
     z-index: 9999;
     height:8rem;
     position: fixed;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 
 }
@@ -32,3 +32,5 @@ html{
 .navbar a:hover{
     border-bottom: .2rem solid purple;
 }
+
+
