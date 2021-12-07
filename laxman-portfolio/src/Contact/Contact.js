@@ -7,7 +7,7 @@ const Contact = () => {
         return ()=> window.open(url,'__blank');
     }
     return (
-        <div className="contactus col-md-auto" id="contact">
+        <div className="contactus  " id="contact">
           <div className="contacicon">
              <FaInstagramSquare className="logo" color='white' size="30px" style={{padding:'1%' ,  width: '10vmin'}}
                onClick={handleurl('https://www.instagram.com/laxman_pache/')} />

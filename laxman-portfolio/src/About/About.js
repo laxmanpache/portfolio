@@ -4,7 +4,7 @@ import PageHeader from '../PageHeader/PageHeader';
 
 const About = () => {
     return (
-        <div className="AboutMe" id="about">
+        <div className="AboutMe " id="about">
         <PageHeader title="About Me"/>
         <div className="container col-sm-12" >
             <div className="text1 col-sm-12 col-lg-6 col-md-6">

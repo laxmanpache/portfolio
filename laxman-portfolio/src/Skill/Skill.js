@@ -28,7 +28,7 @@ const OtherSkill=
 
 const Skill = () => {
     return (
-        <div className="myskill  row" id="skill">
+        <div className="myskill  " id="skill">
             <PageHeader title="what about the Skills and projects ?" />
             <p>i I have problem solving ability,also i got 3 star on hackerrank .
                I attended National level hardware workshop ,also i am Runner in the event Blind C/C++ which conducted on Oct 2019.</p>

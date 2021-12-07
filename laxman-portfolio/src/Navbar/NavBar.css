@@ -3,8 +3,8 @@ html{
     font-size: 62.3%;
 }
 .navbar{
-    background-color: #05010518;
-    width:100%;
+    background-color: #0d0b0df7;
+    width:98%;
     opacity: 0.9;
     z-index: 9999;
     height:8rem;
@@ -30,7 +30,7 @@ html{
     color:white;
 }
 .navbar a:hover{
-    border-bottom: .2rem solid purple;
+    border-bottom: .2rem solid rgb(177, 98, 177);
 }
 
 
